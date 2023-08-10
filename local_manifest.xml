@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+        
 <remote name="ghub"
         fetch="https://github.com" />
+        
 <!-- DT -->
 <project path="device/xiaomi/fleur" name="Bikesh-Kumar-Gupta/device_xiaomi_fleur" remote="ghub" revision="A13" clone-depth="1" />
 <!-- VT IMS-->
 <project path="vendor/xiaomi/fleur" name="Bikesh-Kumar-Gupta/vendor_xiaomi_ims-fleur" remote="ghub" revision="twelve" clone-depth="1" />
  <!-- Gcam -->
 <project path="packages/apps/GCamGOPrebuilt" name="Bikesh-Kumar-Gupta/packages_apps_GCamGOPrebuilt" remote="ghub" revision="tiramisu" clone-depth="1" />
+
 </manifest>
